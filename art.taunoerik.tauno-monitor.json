@@ -9,7 +9,10 @@
         "--share=ipc",
         "--socket=fallback-x11",
         "--device=all",
-        "--socket=wayland"
+        "--socket=wayland",
+	"--filesystem=host",
+        "--filesystem=home",
+        "--filesystem=xdg-documents/home"
     ],
     "cleanup" : [
         "/include",
@@ -44,8 +47,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag"  : "v0.1.15",
-                    "commit" : "5cf1dd753a2f2077ca5088f1f2de12be3c68d37a",
+                    "tag"  : "v0.1.16",
+                    "commit" : "f2fa17c657d90e6bee8cb3538d95b4150d23c797",
                     "url" : "https://github.com/taunoe/tauno-monitor"
                 }
             ]
