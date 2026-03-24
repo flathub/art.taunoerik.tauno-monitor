@@ -1,7 +1,7 @@
 {
     "app-id" : "art.taunoerik.tauno-monitor",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "tauno-monitor",
     "finish-args" : [
@@ -11,17 +11,6 @@
         "--device=all",
         "--socket=wayland",
         "--filesystem=home"
-    ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
     ],
     "modules" : [
     	{
