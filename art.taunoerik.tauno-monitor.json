@@ -123,8 +123,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag"  : "v0.3.7",
-                    "commit" : "154fffcb137dbe74a30c62e7eb738af7eea4057a",
+                    "tag"  : "v0.3.8",
+                    "commit" : "b86270c52e96c5f6c57b5909bd2795e861bdfb2f",
                     "url" : "https://github.com/taunoe/tauno-monitor"
                 }
             ]
